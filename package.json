@@ -1,0 +1,34 @@
+{
+  "name": "incaan",
+  "version": "1.0.0",
+  "description": "Create dummy image server in your local environment",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Dummy",
+    "Image",
+    "Fake",
+    "Image"
+  ],
+  "author": "Rizky Kurniawan",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kykurniawan/incaan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kykurniawan/incaan/issues"
+  },
+  "homepage": "https://github.com/kykurniawan/incaan#readme"
+}
